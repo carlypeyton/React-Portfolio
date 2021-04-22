@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer/Footer";
 import "../assets/style/style.css";
 
 const avatarStyle = {
@@ -16,31 +15,26 @@ const bioStyle = {
   paddingRight: "3rem",
   paddingLeft: "3rem",
   fontFamily: "'Quicksand', sans-serif",
-  fontSize: "20px"
+  fontSize: "20px",
+  textAlign: "left",
 }
 
 const linkStyle = {
   fontFamily: "'Quicksand', sans-serif",
-  fontSize: "20px"
+  fontSize: "20px",
 }
 
 const About = () => (
   <div className="col">
     <div className="container">
       <div className="row">
-        <div className="col">
+        <div className="col text-center">
           <h1 className="page-header">Hello! I'm Carly.</h1>
-        </div>
-      </div>
-      <hr />
-      <div className="row">
-        <div className="col-xl-4 col-lg-12 text-center">
-          <img src="https://i.imgur.com/zo2xI29.jpg" alt="Carly Peyton" style={avatarStyle} id="avatar"/>
-          <i className="far fa-envelope aboutLink"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} >carlypeyton@gmail.com</a>
+          <hr />
+          <img src="https://i.imgur.com/zo2xI29.jpg" alt="Carly Peyton" style={avatarStyle} id="avatar" />
+          <i className="far fa-envelope"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} >carlypeyton@gmail.com</a>
           <br />
-          <i className="fas fa-arrow-down aboutLink mb-4"></i><a href="Resume.pdf" download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
-        </div>
-        <div className="col-xl-8 col-lg-12 bio-section">
+          <i className="fas fa-arrow-down mb-4"></i><a href="Resume.pdf" download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
           <p id="bio" style={bioStyle}>
             I'm a northern Michigan native, based in Metro Detroit, with a passion for the outdoors, travel, good food,
             and design. I graduated from the University of Michigan with a degree in environmetal
@@ -48,9 +42,9 @@ const About = () => (
             <br />
             <br />
             I am passionate about creating an extraordinary user experience, building innovative applications, creative problem-solving, and teamwork. Please check out my Portfolio!
-            </p>
+          </p>
           <p id="bio" style={bioStyle} className="text-center mt-4">
-              JavaScript
+            JavaScript
               <br />
               CSS/Bootstrap/Handlebars
               <br />
@@ -68,7 +62,6 @@ const About = () => (
         </div>
       </div>
     </div>
-    <Footer />
   </div>
 );
 

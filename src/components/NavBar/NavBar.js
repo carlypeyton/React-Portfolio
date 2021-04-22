@@ -9,7 +9,7 @@ const brandStyle = {
 
 function NavBar() {
   return (
-      <nav style={NavBarStyle} className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav style={NavBarStyle} className="navbar navbar-expand-sm navbar-light bg-light">
         <Link className="navbar-brand" to="/" style={brandStyle}>Carly Peyton</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

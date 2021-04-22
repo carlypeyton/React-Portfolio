@@ -1,6 +1,5 @@
 import React from "react";
-import Project from "../components/Project/Project"
-import Footer from "../components/Footer/Footer";
+// import Project from "../components/Project/Project"
 import "../assets/style/style.css";
 
 const Portfolio = () => (
@@ -9,10 +8,9 @@ const Portfolio = () => (
       <h1 className="page-header">Portfolio</h1>
       <hr />
       <div className="row image-row">
-        <Project />
+        {/* <Project /> */}
       </div>
     </div>
-    <Footer />
   </div>
 );
 
