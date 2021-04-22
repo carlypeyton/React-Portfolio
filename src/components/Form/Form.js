@@ -6,16 +6,16 @@ function Form() {
   return (
     <form style={FormStyle}>
       <div className="form-group">
-        <p>Name</p>
+        <label>Name</label>
         <input type="text" className="form-control"></input>
       </div>
       <div className="form-group">
-        <p>Email Address</p>
-        <input type="text" className="form-control"></input>
+        <label>Email Address</label>
+        <input type="email" className="form-control"></input>
       </div>
       <div className="form-group">
-        <p>Message</p>
-        <input type="text" className="form-control"></input>
+        <label>Message</label>
+        <textarea type="text" rows="3" className="form-control"></textarea>
       </div>
       <SubmitBtn />
     </form>
