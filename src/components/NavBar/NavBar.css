@@ -1,0 +1,9 @@
+Link {
+  border: 1px solid whitesmoke;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 3rem;
+}
