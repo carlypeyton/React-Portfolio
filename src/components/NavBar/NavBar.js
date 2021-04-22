@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import NavBarStyle from "./NavBar.css"
 
 const brandStyle = {
-  fontSize: "1.75rem",
+  fontSize: "2rem",
   fontFamily: "'Sacramento', cursive"
 }
 
