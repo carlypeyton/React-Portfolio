@@ -1,0 +1,10 @@
+#submit-button {
+  border-radius: 2rem;
+  background-color: rgb(27, 61, 88);
+  color: white;
+  width: 100px;
+}
+
+#submit-button:hover {
+  background-color: rgb(39, 99, 179);
+}
