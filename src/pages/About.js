@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/style/style.css";
 
 const avatarStyle = {
-  width: "310px",
+  width: "380px",
   paddingTop: "1%",
   paddingBottom: "4%",
   borderRadius: "50%",
@@ -32,6 +32,7 @@ const About = () => (
           <h1 className="page-header">Hello! I'm Carly.</h1>
           <hr />
           <img src="https://i.imgur.com/zo2xI29.jpg" alt="Carly Peyton" style={avatarStyle} id="avatar" />
+          <h2 id="work-title">Full Stack Developer</h2>
           <i className="far fa-envelope"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} >carlypeyton@gmail.com</a>
           <br />
           <i className="fas fa-arrow-down mb-4"></i><a href="Resume.pdf" download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
