@@ -3,7 +3,8 @@ import "../assets/style/style.css";
 import resume from "../assets/documents/Resume.pdf"
 
 const avatarStyle = {
-  width: "350px",
+  width: "80%",
+  maxWidth: "400px",
   paddingTop: "1%",
   paddingBottom: "4%",
   borderRadius: "50%",
