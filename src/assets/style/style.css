@@ -33,3 +33,8 @@ body {
   font-size: 2.75rem;
   padding-bottom: .5rem;
 }
+
+.repo {
+  font-size: 1.75rem;
+  font-family: 'Quicksand', sans-serif;
+}

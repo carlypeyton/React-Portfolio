@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/style/style.css";
+import resume from "../assets/documents/Resume.pdf"
 
 const avatarStyle = {
   width: "380px",
@@ -35,7 +36,7 @@ const About = () => (
           <h2 id="work-title">Full Stack Developer</h2>
           <i className="far fa-envelope"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} >carlypeyton@gmail.com</a>
           <br />
-          <i className="fas fa-arrow-down mb-4"></i><a href="Resume.pdf" download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
+          <i className="fas fa-arrow-down mb-4"></i><a href={resume} download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
           <p id="bio" style={bioStyle}>
             I'm a northern Michigan native, based in Metro Detroit, with a passion for the outdoors, travel, good food,
             and design. I graduated from the University of Michigan with a degree in environmetal

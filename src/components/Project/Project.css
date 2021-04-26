@@ -1,0 +1,12 @@
+.image-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  display: block;
+  margin: auto;
+}
