@@ -8,7 +8,7 @@ This application is deployed on GH Pages:
 * Node
 * React
 * React-Bootstrap
-* 
+
 
 
 
