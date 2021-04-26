@@ -4,7 +4,7 @@ import resume from "../assets/documents/Resume.pdf"
 
 const avatarStyle = {
   width: "80%",
-  maxWidth: "400px",
+  maxWidth: "340px",
   paddingTop: "1%",
   paddingBottom: "4%",
   borderRadius: "50%",
