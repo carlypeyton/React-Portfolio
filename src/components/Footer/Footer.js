@@ -6,9 +6,9 @@ import FooterStyle from "./Footer.css"
 function Footer() {
   return (
     <footer className="footer-margin fixed-bottom card-footer bg-light footer-font-style text-muted footer-position" style={FooterStyle}>
-      <a href="https://github.com/carlypeyton">
+      <a href="https://github.com/carlypeyton" target="_blank" rel="noreferrer">
         <img src={GithubIcon} alt="Github Logo" className="icon"/></a>
-      <a href="https://www.linkedin.com/in/carly-p-5141841ba/">
+      <a href="https://www.linkedin.com/in/carly-p-5141841ba/" target="_blank" rel="noreferrer">
         <img src={LinkedInIcon} alt="LinkedIn Logo" className="icon"/></a>
     </footer>
   );
