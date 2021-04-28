@@ -27,8 +27,7 @@ const linkStyle = {
 }
 
 const About = () => (
-  <div className="col">
-    <div className="container">
+    <div className="container col-xl-8 col-lg-10 col-xs-12">
       <div className="row">
         <div className="col text-center">
           <h1 className="page-header">Hello! I'm Carly.</h1>
@@ -65,7 +64,6 @@ const About = () => (
         </div>
       </div>
     </div>
-  </div>
 );
 
 export default About;
