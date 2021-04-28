@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.42e1c0e9.chunk.css",
-    "main.js": "/static/js/main.2f381110.chunk.js",
-    "main.js.map": "/static/js/main.2f381110.chunk.js.map",
+    "main.css": "/static/css/main.1480e85b.chunk.css",
+    "main.js": "/static/js/main.b028d3cc.chunk.js",
+    "main.js.map": "/static/js/main.b028d3cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.4a882955.chunk.js.map": "/static/js/2.4a882955.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.42e1c0e9.chunk.css.map": "/static/css/main.42e1c0e9.chunk.css.map",
+    "static/css/main.1480e85b.chunk.css.map": "/static/css/main.1480e85b.chunk.css.map",
     "static/js/2.4a882955.chunk.js.LICENSE.txt": "/static/js/2.4a882955.chunk.js.LICENSE.txt",
     "static/media/Code-Quiz.3b9c2c5e.png": "/static/media/Code-Quiz.3b9c2c5e.png",
     "static/media/Day-Planner.012a9412.png": "/static/media/Day-Planner.012a9412.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.06b5035f.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4a882955.chunk.js",
-    "static/css/main.42e1c0e9.chunk.css",
-    "static/js/main.2f381110.chunk.js"
+    "static/css/main.1480e85b.chunk.css",
+    "static/js/main.b028d3cc.chunk.js"
   ]
 }
