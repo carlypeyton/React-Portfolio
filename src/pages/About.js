@@ -24,10 +24,10 @@ const About = () => (
     <div className="container col-xl-8 col-lg-10 col-xs-12">
       <div className="row">
         <div className="col text-center">
-          <h1 className="page-header animate__animated animate__tada">Hello! I'm Carly.</h1>
+          <h1 className="page-header animate__animated animate__tada">Hello! I'm Carly</h1>
           <hr />
-          <img src="https://i.imgur.com/zo2xI29.jpg" className="animate__animated animate__pulse" alt="Carly Peyton" style={avatarStyle} id="avatar" />
-          <h2 id="work-title">Full Stack Developer</h2>
+          <img src="https://i.imgur.com/FK8koWQ.jpg" className="animate__animated animate__pulse" alt="Carly Peyton" style={avatarStyle} id="avatar" />
+          <h2 id="work-title" className="animate__animated animate__pulse">Full Stack Developer</h2>
           <p id="bio" style={bioStyle}>
             I am a northern Michigan native, based in Metro Detroit, with a passion for the outdoors, travel, good food,
             and web design. I am excited to utilize my skills in creative problem solving, collaboration and global thinking 

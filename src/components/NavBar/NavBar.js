@@ -16,7 +16,7 @@ const NavBar = () => {
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation"
         aria-expanded="false" aria-label="Toggle navigation" onClick={() => (show === "" ? setShow("show") : setShow(""))}
       >
-        <i class="fas fa-plus"></i>
+        <i class="fas fa-angle-down"></i>
       </button>
       <div className={`collapse navbar-collapse justify-content-end ${show}`} id="navigation">
         <div className="nav navbar-nav ml-auto text-right">
