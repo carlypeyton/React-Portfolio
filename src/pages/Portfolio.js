@@ -14,7 +14,7 @@ import weatherDashboard from "../assets/images/Weather-Dashboard.png";
 
 
 const Portfolio = () => (
-  <div className="container col-xl-8 col-lg-10 col-xs-12">
+  <div className="container col-xl-8 col-lg-10 col-xs-12 animate__animated animate__slideInLeft">
     <div className="row">
       <div className="col">
         <h1 className="page-header">Portfolio</h1>
