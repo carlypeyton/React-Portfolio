@@ -4,8 +4,7 @@ import "../assets/style/style.css";
 const avatarStyle = {
   width: "80%",
   maxWidth: "340px",
-  paddingTop: "1%",
-  paddingBottom: "4%",
+  paddingBottom: "2%",
   borderRadius: "50%",
   display: "block",
   marginLeft: "auto",
