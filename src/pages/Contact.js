@@ -7,8 +7,8 @@ import LinkedInIcon from "../assets/icons/LinkedIn.png";
 
 const linkStyle = {
   fontFamily: "'Quicksand', sans-serif",
-  fontSize: "20px",
-  lineHeight: "50px"
+  fontSize: "1.25rem",
+  lineHeight: "50px",
 }
 
 const iconStyle ={
@@ -23,15 +23,15 @@ const Contact = () => (
         <hr />
         {/* <Form /> */}
         <div className="text-center">
-          <i className="far fa-envelope pr-2"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} >carlypeyton@gmail.com</a>
+          <span><i className="far fa-envelope pr-2"></i> <a href={`mailto:${"carlypeyton@gmail.com"}`} style={linkStyle} className="contact">carlypeyton@gmail.com</a></span>
           <br />
-          <a href="https://github.com/carlypeyton" target="_blank" rel="noreferrer" style={linkStyle}>
-            <img src={GithubIcon} alt="Github Logo" className="icon" style={iconStyle} />https://github.com/carlypeyton</a>
+          <span><a href="https://github.com/carlypeyton" target="_blank" rel="noreferrer" style={linkStyle} className="contact">
+            <img src={GithubIcon} alt="Github Logo" className="icon" style={iconStyle} />https://github.com/carlypeyton</a></span>
           <br />
-          <a href="https://www.linkedin.com/in/carly-p-5141841ba/" target="_blank" rel="noreferrer" style={linkStyle}>
-            <img src={LinkedInIcon} alt="LinkedIn Logo" className="icon" style={iconStyle}/>https://www.linkedin.com/in/carlypeyton/</a>
+          <span><a href="https://www.linkedin.com/in/carly-p-5141841ba/" target="_blank" rel="noreferrer" style={linkStyle} className="contact">
+            <img src={LinkedInIcon} alt="LinkedIn Logo" className="icon" style={iconStyle}/>https://www.linkedin.com/in/carlypeyton/</a></span>
           <br />
-          <i className="fas fa-arrow-down mb-4 pr-2"></i><a href={resume} download="Carly Peyton Resume" style={linkStyle} > Download Resume</a>
+          <span><i className="fas fa-arrow-down mb-4 pr-2"></i><a href={resume} download="Carly Peyton Resume" style={linkStyle} className="contact"> Download Resume</a></span>
         </div>
       </div>
     </div>

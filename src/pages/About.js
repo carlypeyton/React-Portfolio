@@ -12,10 +12,10 @@ const avatarStyle = {
 }
 
 const bioStyle = {
-  paddingRight: "3rem",
-  paddingLeft: "3rem",
+  paddingRight: "5%",
+  paddingLeft: "5%",
   fontFamily: "'Quicksand', sans-serif",
-  fontSize: "20px",
+  fontSize: "1.25rem",
   textAlign: "left",
 }
 
