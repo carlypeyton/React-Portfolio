@@ -48,8 +48,6 @@ const About = () => (
               <br />
               Git/GitHub
               <br />
-              Responsive/Mobile-First Web Design
-              <br />
           </p>
         </div>
       </div>
