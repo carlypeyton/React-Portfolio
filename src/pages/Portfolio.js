@@ -11,7 +11,7 @@ import noteTaker from "../assets/images/Note-Taker.png";
 import puppyPartyPlanner from "../assets/images/Puppy-Party-Planner.png";
 import teamProfileGenerator from "../assets/images/Team-Profile-Generator.png";
 import weatherDashboard from "../assets/images/Weather-Dashboard.png";
-import petPandemonium from "../assets/images/Pet-Pandonium.png";
+import petPandemonium from "../assets/images/Pet-Pandemonium.png";
 
 const Portfolio = () => (
   <div className="container col-xl-8 col-lg-10 col-xs-12 animate__animated animate__slideInLeft">
