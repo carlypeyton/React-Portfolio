@@ -21,64 +21,87 @@ const Portfolio = () => (
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Pet-Pandemonium" className="repo" target="_blank" rel="noreferrer">Pet Pandemonium</a>
+          <p>A Battleship-style game, with a twist! Compete as cats or dogs for the coveted spot in the yard.</p>
+          <p>JavaScript | CSS | React | Node | Express | MongoDB | Socket.io | Howler.js | Heroku | Passport | Axios | Bootstrap </p>
           <a href="https://pet-pandemonium.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={petPandemonium} className="repo-image" alt="Pet Pandemonium Preview"></img></a>
         </Project>
         <Project>
           <a href="https://github.com/carlypeyton/Puppy-Party-Planner" className="repo" target="_blank" rel="noreferrer">Puppy Party Planner</a>
+          <p>An application for planning outings with your pup, based on location and weather preferences.</p>
+          <p>JavaScript | CSS | HTML5 | Materialize | jQuery</p>         
           <a href="https://jaortisi6.github.io/Puppy-Party-Planner/" target="_blank" rel="noreferrer">
             <img src={puppyPartyPlanner} className="repo-image" alt="Puppy Party Planner Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Code-Quiz" className="repo" target="_blank" rel="noreferrer">Code Quiz</a>
-          <a href="https://carlypeyton.github.io/Code-Quiz/" target="_blank" rel="noreferrer">
+          <p>Test your coding knowledge with this Code Quiz.</p>
+          <p>JavaScript | CSS | HTML5 | Bootstrap | jQuery</p>  
+           <a href="https://carlypeyton.github.io/Code-Quiz/" target="_blank" rel="noreferrer">
             <img src={codeQuiz} className="repo-image" alt="Code Quiz Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Day-Planner" className="repo" target="_blank" rel="noreferrer">Day Planner</a>
+          <p>Day planning application to help users track schedule and tasks.</p>
+          <p>JavaScript | CSS | HTML5 | Bootstrap | jQuery</p>  
           <a href="https://carlypeyton.github.io/Day-Planner/" target="_blank" rel="noreferrer">
             <img src={dayPlanner} className="repo-image" alt="Day Planner Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Weather-Dashboard" className="repo" target="_blank" rel="noreferrer">Weather Dashboard</a>
+          <p>Weather application allows users to search for cities and view current weather and 5-day forecast.</p>
+          <p>JavaScript | CSS | HTML5 | Bootstrap | jQuery | AJAX | Moment.js | Open Weather Map API </p>            
           <a href="https://carlypeyton.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">
             <img src={weatherDashboard} className="repo-image" alt="Weather Dashboard Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Team-Profile-Generator" className="repo" target="_blank" rel="noreferrer">Team Profile Generator</a>
+          <p>Command-line application to create a complete software engineering team profile.</p>
+          <p>JavaScript | Node | Jest </p>            
           <a href="https://github.com/carlypeyton/Team-Profile-Generator" target="_blank" rel="noreferrer">
             <img src={teamProfileGenerator} className="repo-image" alt="Team Profile Generator Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Eat-Da-Burger" className="repo" target="_blank" rel="noreferrer">Eat Da Burger</a>
+          <p>Restaurant application to track tasty burger menu.</p>
+          <p>JavaScript | CSS | HTML5 | Express | Express-Handlebars | MySQL </p>  
           <a href="https://pure-badlands-79583.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={eatDaBurger} className="repo-image" alt="Eat Da Burger Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Note-Taker" className="repo" target="_blank" rel="noreferrer">Note Taker</a>
+          <p>Write and save notes with this note taking application.</p>
+          <p>JavaScript | CSS | HTML5 | Express | UUID </p>  
           <a href="https://github.com/carlypeyton/Note-Taker" target="_blank" rel="noreferrer">
             <img src={noteTaker} className="repo-image" alt="Note Taker Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/DAYREC" className="repo" target="_blank" rel="noreferrer">DAYREC</a>
+          <p>Betting application for virtual classroom and instructions.</p>
+          <p>JavaScript | CSS | HTML5 | Node | Swagger | MySQL </p>  
           <a href="https://dayrec.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={dayrec} className="repo-image" alt="DAYREC Preview"></img></a>
         </Project>
         <hr />
         <Project>
           <a href="https://github.com/carlypeyton/Employee-Directory" className="repo" target="_blank" rel="noreferrer">Employee Directory</a>
+          <p>Search through and filter employees in this Employee Directory.</p>
+          <p>JavaScript | CSS | React | Bootstrap | React-Bootstrap | Axios | Node </p>           
           <a href="https://tranquil-dusk-31741.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={employeeDirectory} className="repo-image" alt="Employee Directory Preview"></img></a>
         </Project>
         <hr />
-        <Project><a href="https://github.com/carlypeyton/Fitness-Tracker" className="repo" target="_blank" rel="noreferrer">Fitness Tracker</a>
+        <Project>
+          <a href="https://github.com/carlypeyton/Fitness-Tracker" className="repo" target="_blank" rel="noreferrer">Fitness Tracker</a>
+          <p>Fitness Tracker application to track daily workout routines and view a weekly summary of workouts, to help users reach fitness goals.</p>
+          <p>JavaScript | CSS | HTML5 | Express | Mongoose | Morgan </p>            
           <a href="https://infinite-spire-14205.herokuapp.com/?id=607de0908fc3a500158f039b" target="_blank" rel="noreferrer">
             <img src={fitnessTracker} className="repo-image" alt="Fitness Tracker Preview"></img></a>
         </Project>
