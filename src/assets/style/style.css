@@ -37,6 +37,11 @@ body {
 .repo {
   font-size: 1.5rem;
   font-family: 'Quicksand', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.repo-image {
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 472px) {
@@ -44,3 +49,9 @@ body {
   font-size: .92rem;
   }
 } 
+
+.project-description {
+  font-size: 1.15rem;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 1rem;
+}
